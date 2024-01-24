@@ -1,0 +1,12 @@
+<svg width="1440" height="411" viewBox="0 0 1440 411" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="411" fill="#C8E2DF" fill-opacity="0.5"/>
+<rect width="1440" height="411" transform="matrix(1 0 0 -1 0 411)" fill="#C8E2DF" fill-opacity="0.5"/>
+<path d="M371 0H786L1020 411H592L371 0Z" fill="#44403F"/>
+<path d="M371 411H786L1020 7.27177e-06H592L371 411Z" fill="#44403F"/>
+<path opacity="0.8" d="M786 0H917L1151 411H1020L786 0Z" fill="#A2D3E1"/>
+<path opacity="0.8" d="M786 411H917L1151 7.27177e-06H1020L786 411Z" fill="#A2D3E1"/>
+<path opacity="0.9" d="M1074 411H1206L1440 7.27177e-06H1308L1074 411Z" fill="#3F95A9"/>
+<path opacity="0.9" d="M1074 0H1206L1440 411H1308L1074 0Z" fill="#3F95A9"/>
+<path opacity="0.9" d="M917 0H1027.14L1262 411H1150.99L917 0Z" fill="#66B5C4"/>
+<path opacity="0.9" d="M917 411H1027.14L1262 7.27177e-06H1150.99L917 411Z" fill="#66B5C4"/>
+</svg>
