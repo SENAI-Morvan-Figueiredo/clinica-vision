@@ -1,0 +1,19 @@
+:root {
+    /* paleta de cores */
+    --black: #000;
+    --blue-9: #031D38;
+    --cyan-3: #C8E2DF;
+    --cyan-2: #3F95A9;
+    --purple-9: #160041;
+    --white: #FFF;
+    --white-light: #FEFEFE;
+}
+
+/* fontes */
+.font-1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Raleway', sans-serif;
+}
