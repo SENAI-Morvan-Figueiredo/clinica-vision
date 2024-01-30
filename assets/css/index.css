@@ -1,12 +1,13 @@
 :root {
     /* paleta de cores */
     --black: #000;
+    --black-9: #44403F;
     --blue-9: #031D38;
     --cyan-3: #C8E2DF;
     --cyan-2: #3F95A9;
     --purple-9: #160041;
     --white: #FFF;
-    --white-light: #FEFEFE;
+    --white-9: #FEFEFE;
 }
 
 /* fontes */
