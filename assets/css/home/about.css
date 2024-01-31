@@ -1,32 +1,40 @@
-main > div {
-    background-image: url(/clinica-vision/assets/img/bg/bg-1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 }
 
-main > div > img {
-    margin: 4rem;
-    opacity: 0.7;
-    width: 100%;
+.about > div {
+    margin: 2rem;
+    text-align: center;
+    width: 30%;
 }
 
 .about img {
-    padding: 0 0 0 0;
+    margin: -20px 0 0 -38px;
+    
 }
 
 .img-about {
+    border-radius: 40px;
     width: 340px;
     height: 340px;
-    border-radius: 40px;
+}
+
+.bg-blue {
+    background-color: var(--cyan-3);
+    height: 300px;
+    padding: 43px 0px 0px 42px;
+    width: 300px;
 }
 
 .bg-black {
     background-color: var(--black-9);
 }
 
-.bg-blue {
-    background-color: var(--cyan-3);
+.about > div > p {
+    line-height: 1.5rem;
+    text-align: justify;
+    text-indent: 2rem;
 }
-
-
-

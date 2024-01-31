@@ -18,3 +18,20 @@
 .font-2 {
     font-family: 'Raleway', sans-serif;
 }
+
+
+.title_home {
+    color: var(--blue-9);
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 1.5em;
+    font-size: 30px;
+}
+
+.subtitle_home {
+    color: var(--blue-9);
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 1.5em;
+    font-size: 20px;
+}

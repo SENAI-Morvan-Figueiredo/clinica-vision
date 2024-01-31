@@ -8,18 +8,20 @@
 	<title>Clinica Vision</title>
 
 	<!-- fontes -->
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Raleway:wght@100;300;500;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap"
 		rel="stylesheet">
+
 
 	<!-- estilos -->
 	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/home/header.css">
+	<link rel="stylesheet" href="assets/css/home/banner.css">
 	<link rel="stylesheet" href="assets/css/home/about.css">
+	<link rel="stylesheet" href="assets/css/home/specialties.css">
 
 </head>
 
@@ -49,20 +51,24 @@
 		</div>
 		<article class="about">
 			<div>
-				<div class="bg-black img-about">
-					<div class="bg-blue img-about">
+				<div class="bg-blue img-about">
+					<div class="bg-black img-about">
 						<img class="img-about" src="assets/img/index/medico.svg" alt="">
 					</div>
 				</div>
 			</div>
 			<div>
-				<h1>SOBRE NÓS</h1>
-				<p>
+				<h1 class="font-2 title_home">SOBRE NÓS</h1>
+				<p class="font-1">
 					A Clínica Vision oferece a melhor experiência para os seus pacientes, trazendo soluções à sua vista.
 					A nossa equipe especializada possui qualificação e excelência nos serviços prestados.
+				</p>
+				<p class="font-1">
 					Para nós, o paciente não é apenas um número. Ele é uma vida valiosa que se encontra fragilizado e
 					inseguro. Por conta disso, os nossos atendentes devem ser ótimos ouvintes para tirar todas as
 					dúvidas e oferecer as melhores resoluções possíveis.
+				</p>
+				<p class="font-1">
 					O nosso diferencial é que colocamos os nossos princípios acima da tomada de decisão, agindo com
 					responsabilidade, empatia e inclusão.
 				</p>
@@ -70,47 +76,67 @@
 		</article>
 		<section id="specialties" class="specialties">
 			<div>
-				<h1>ESPECIALIDADES</h1>
+				<h1 class="title_home">ESPECIALIDADES</h1>
 				<article>
 					<img src="assets/img/index/medica.svg" alt="">
-					<h2>Especialista em Neuroftalmologia</h2>
-					<p>
-						Neuroftamologia é uma especialidade que cuida das doenças que atingem as funções neurológicas
-						relacionadas ao olho - visão, movimento dos olhos e pupila. Em alguns casos, o problema pode
-						estar relacionado também com alguma outra doença pré-existente e pode chegar a afetar a saude
-						dos olhos.
-						Distúrbios como perda transitória da visão, visão dupla e perda inexplicável do campo de visão
-						podem ser tratados pelo médico neuroftalmologista.
-					</p>
-					<button>AGENDAR</button>
+					<div>
+						<h2 class="font-2 subtitle_home">Especialista em Neuroftalmologia</h2>
+						<p class="font-1">
+							Neuroftamologia é uma especialidade que cuida das doenças que atingem as funções
+							neurológicas relacionadas ao olho - visão, movimento dos olhos e pupila. Em alguns casos, o
+							problema pode estar relacionado também com alguma outra doença pré-existente e pode chegar a
+							afetar a saude dos olhos.
+						</p>
+						<p class="font-1">
+							Distúrbios como perda transitória da visão, visão dupla e perda inexplicável do campo de
+							visão podem ser tratados pelo médico neuroftalmologista.
+						</p>
+						<button class="font-1">AGENDAR</button>
+					</div>
 				</article>
 				<article>
 					<img src="assets/img/index/menina.svg" alt="">
-					<h2>Especialista em Oftalmopediatria</h2>
-					<p>
-						Oftalmopediatria é uma especialidade para diagnóstico e tratamento de bebês, crianças e
-						adolescentes portadores de doenças como má formação e problemas de refração.
-						O oftalmopediatra atua em todas as fases da infância. Ao nascerem, todos os bebês devem ser
-						submetidos ao “Teste do Olhinho”, que detecta precocemente alterações visuais, como catarata e
-						glaucoma congênitos, entre outros problemas que quando diagnosticados no nascimento podem ser
-						tratados a tempo, permitindo que a visão se desenvolva normalmente ou muito próxima do normal.
-					</p>
-					<button>AGENDAR</button>
+					<div>
+						<h2 class="font-2 subtitle_home">Especialista em Oftalmopediatria</h2>
+						<p class="font-1">
+							Oftalmopediatria é uma especialidade para diagnóstico e tratamento de bebês, crianças e
+							adolescentes portadores de doenças como má formação e problemas de refração.
+						</p>
+						<p class="font-1">
+							Oftalmopediatria é uma especialidade para diagnóstico e tratamento de bebês, crianças e
+							adolescentes portadores de doenças como má formação e problemas de refração.
+						</p>
+						<p class="font-1">
+							O oftalmopediatra atua em todas as fases da infância. Ao nascerem, todos os bebês devem ser
+							submetidos ao “Teste do Olhinho”, que detecta precocemente alterações visuais, como catarata
+							e glaucoma congênitos, entre outros problemas que quando diagnosticados no nascimento podem
+							ser tratados a tempo, permitindo que a visão se desenvolva normalmente ou muito próxima do
+							normal.
+						</p>
+						<button class="font-1">AGENDAR</button>
+					</div>
 				</article>
 				<article>
 					<img src="assets/img/index/olho-lente.svg" alt="">
-					<h2>Especialista em Segmento Anterior</h2>
-					<p>
-						O especialista é responsável por analisar o segmento anterior do olho para diagnosticar as
-						condições adversas e indicar tratamentos adequados. Para tratá-las é imprescindível a visita
-						frequente ao oftalmologista. Algumas doenças que são identificadas por esse especialista são
-						miopia, catarata, conjuntivite.
-						A avaliação é feita com uma lâmpada de fenda, um tipo de microscópio que possibilita o
-						oftalmologista examinar as estruturas da face anterior do olho, com uma luz de alta intensidade.
-						Patologias que o especialista consegue diagnosticar são, glaucoma, síndrome do olho seco,
-						condições da córnea “úlceras da córnea e queratite”, entre outras.
-					</p>
-					<button>AGENDAR</button>
+					<div>
+						<h2 class="font-2 subtitle_home">Especialista em Segmento Anterior</h2>
+						<p class="font-1">
+							O especialista é responsável por analisar o segmento anterior do olho para diagnosticar as
+							condições adversas e indicar tratamentos adequados. Para tratá-las é imprescindível a visita
+							frequente ao oftalmologista. Algumas doenças que são identificadas por esse especialista são
+							miopia, catarata, conjuntivite.
+						</p>
+						<p class="font-1">
+							A avaliação é feita com uma lâmpada de fenda, um tipo de microscópio que possibilita o
+							oftalmologista examinar as estruturas da face anterior do olho, com uma luz de alta
+							intensidade.
+						</p>
+						<p class="font-1">
+							Patologias que o especialista consegue diagnosticar são, glaucoma, síndrome do olho seco,
+							condições da córnea “úlceras da córnea e queratite”, entre outras.
+						</p>
+						<button class="font-1">AGENDAR</button>
+					</div>
 				</article>
 			</div>
 		</section>
